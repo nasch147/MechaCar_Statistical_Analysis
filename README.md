@@ -16,6 +16,7 @@ Findings:
  - The model explains approximately 70% of the variance in mpg. Although it explains most of the variance in Y, other data points and variables should be evaluated to increase the explanatory power of the overall model.
   
 ** Residuals**
+
  ![residuals](residuals_plot.png)
  
  - the plot of the residuals indicates random dispersion and no visually obervable presence of bias. 
