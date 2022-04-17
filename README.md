@@ -15,7 +15,7 @@ Findings:
  - The model as a whole has a statistically significant effect on mpg as indicated by the F-Statistic. 
  - The model explains approximately 70% of the variance in mpg. Although it explains most of the variance in Y, other data points and variables should be evaluated to increase the explanatory power of the overall model.
   
-** Residuals**
+**Residuals**
 
  ![residuals](residuals_plot.png)
  
