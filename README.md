@@ -43,11 +43,11 @@ The tests for lots 1 and 2 indicate that we can consider the mean of lots 1 and 
 
 In the instance that MechaCar would like to differentiate itself on the basis of longevity relative to cost as they relate to value, the following could be performed:
 - Data would need to be collected for a ground of manufacturers on total lifetime mileage and the initial cost of the car. 
- - Total cost would then be divided by the number of lifetime miles to generate cost per mile.
+ -- Total cost would then be divided by the number of lifetime miles to generate cost per mile.
 - Our hypothesis would be to test whether the cost per mile of MechaCar would be statiscally different than the total population of manufacturers
- -  Our null hypothesis in this instance would be that the average cost per mile for MechaCar is not different than the population of manufacturers
+ --  Our null hypothesis in this instance would be that the average cost per mile for MechaCar is not different than the population of manufacturers
 -  We would then use a t-test comparing the mean of the cost per mile of MechaCar vs the population. 
- - If we are able to reject the null hypothesis that it is not different, then we can conclude that the cost per mile of MechaCar is different than that of the          population.  We then would check to ensure that the mean of the MechaCar population is lower than that of the population.  
+ -- If we are able to reject the null hypothesis that it is not different, then we can conclude that the cost per mile of MechaCar is different than that of the          population.  We then would check to ensure that the mean of the MechaCar population is lower than that of the population.  
 
 
 
