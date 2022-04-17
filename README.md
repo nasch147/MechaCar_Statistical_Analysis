@@ -23,6 +23,7 @@ Findings:
  - The Breusch-Pagan test for heteroskedasticity was also ran concluding that the data within the model can be considered homoskedastistic in the current context. 
 
 ## **Summary Stats on Suspension Coils**
+
  ![summary1](summary_1.png)
  
  ![grouped_summary](grouped_summary.png)
@@ -30,7 +31,11 @@ Findings:
  As a group, when considering manufacturing tolerance for 100 lbs per square inch:
  - all 150 observations combined have an average variance of 7.89 pounds per square inch and are within acceptable limits
  - each of the 3 manufacturing lots have standard deviations of 0.98 PSI, 2.73 PSI, and 13.04 PSI, respectively and are within tolerances. 
- - (variance is the squared differences from the mean while standard dev states variance in the same units as the underlying data. 
+ - _(variance is the squared differences from the mean while standard dev states variance in the same units as the underlying data)_
+
+## **Deliverable 3**
+
+
 
 
 
