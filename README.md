@@ -7,14 +7,17 @@ Our data consists of a cross section of data that is materially complete.  Data 
 
 ### the Regression
 ![summary](regressio_summary.png)
+
 Length, weight, spoiler angle, ground clearance, and AWD, were regressed on MPG.
 Findings: 
  - Vehicle length and ground clerance had a statistically significant effect on mpg at the 99% confidence level. 
  - no other estimators were significants determinants of mpg, while given the other independent variables. 
  - The model as a whole has a statistically significant effect on mpg as indicated by the F-Statistic. 
- - The model explains approximately 70% of the variance in mpg. Although it explains most of the variance in Y, other data points and variables should be evaluated to increase the explanatory power of the overall model. 
- - Residuals
+ - The model explains approximately 70% of the variance in mpg. Although it explains most of the variance in Y, other data points and variables should be evaluated to increase the explanatory power of the overall model.
+  
+** Residuals**
  ![residuals](residuals_plot.png)
+ 
  - the plot of the residuals indicates random dispersion and no visually obervable presence of bias. 
  - The Breusch-Pagan test for heteroskedasticity was also ran concluding that the data within the model can be considered homoskedastistic in the current context. 
 
