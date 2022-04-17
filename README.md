@@ -22,7 +22,10 @@ Findings:
  - the plot of the residuals indicates random dispersion and no visually obervable presence of bias. 
  - The Breusch-Pagan test for heteroskedasticity was also ran concluding that the data within the model can be considered homoskedastistic in the current context. 
 
-## **Deliverable 2**
+## **Summary Stats on Suspension Coils**
+
+
+
 
 
 
