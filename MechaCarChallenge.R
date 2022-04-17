@@ -1,3 +1,7 @@
+#Module 15 Challenge
+
+# Deliverable 1
+
 # add dply package
 library(dplyr)
 
@@ -31,10 +35,42 @@ model <- lm(log_mpg ~ log_vehicle_length +log_vehicle_weight + log_spoiler_angle
             + log_ground_clearance + AWD, data=log_table)
 summary(model)
 
+
 # list of residuals
 plot(model$residuals)
 # breusch-pagan test 
 bptest(model)
 # no evidence of heteroskedasticity
+
+# Deliverable 2
+
+#import data from csv and save in table
+susp_table <- read.csv('Suspension_Coil.csv')
+
+#summarize data in new table
+total_summary <- susp_table %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), 
+                                           Variance_PSI=var(PSI), STDEV_PSI=sd(PSI))
+#group by mfg lot and summarize
+total_summary2 <- susp_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), 
+                                           Variance_PSI=var(PSI), STDEV_PSI=sd(PSI), .groups = 'keep')
+
+# deliverable 3
+?t.test()
+# whole population
+t.test((susp_table$PSI),mu=1500)
+# by manufacturing lot
+?subset()
+t.test(subset(susp_table, Manufacturing_Lot == "Lot1")$PSI, mu=1500)
+t.test(subset(susp_table, Manufacturing_Lot == "Lot2")$PSI, mu=1500)
+t.test(subset(susp_table, Manufacturing_Lot == "Lot3")$PSI, mu=1500)
+
+
+
+
+
+
+
+
+
 
 
